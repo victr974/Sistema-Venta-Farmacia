@@ -1,0 +1,46 @@
+{
+<<<<<<<< HEAD:backend/package.json
+  "name": "backend",
+========
+  "name": "nodejs-pg",
+>>>>>>>> 22cdabcb6e5338cadbf173378120e39331765fba:nodejs-pg/package.json
+  "version": "1.0.0",
+  "description": "Este es un proyecto de una farmacia online - nodejs y angular",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "postgresql",
+    "angular"
+  ],
+  "author": "Victor Cortez",
+  "license": "ISC",
+  "dependencies": {
+<<<<<<<< HEAD:backend/package.json
+========
+    "bcrypt-nodejs": "^0.0.3",
+>>>>>>>> 22cdabcb6e5338cadbf173378120e39331765fba:nodejs-pg/package.json
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+<<<<<<<< HEAD:backend/package.json
+========
+    "just-simple": "^0.1.11",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.5",
+>>>>>>>> 22cdabcb6e5338cadbf173378120e39331765fba:nodejs-pg/package.json
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
