@@ -1,4 +1,5 @@
 const pool = require('../config/db.config');
+var fs = require('fs');
 
 const createProducto = async (req, res, next) => {
     try {

@@ -21,9 +21,9 @@ CREATE TABLE proveedor(
 CREATE TABLE cliente(
     id_cliente serial primary key,
 	nit varchar(255),
-	nombre varchar(255),
+	nombre varchar(255),  
 	apellido varchar(255),
-	direccion varchar(255)
+	direccion varchar(255) 
 );
 
 CREATE TABLE producto(
